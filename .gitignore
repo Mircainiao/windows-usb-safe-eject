@@ -1,0 +1,15 @@
+# Build environments and generated PyInstaller outputs
+/build/
+/dist/
+/__pycache__/
+**/__pycache__/
+*.py[cod]
+*.spec
+
+# Logs, local reports, and release staging files
+*.log
+/release-assets/
+/package-test-results/
+/work/
+.pytest_cache/
+.mypy_cache/

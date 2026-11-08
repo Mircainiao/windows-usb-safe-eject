@@ -1,0 +1,21 @@
+USB 硬盘安全退出 - 第三方组件说明
+
+smartmontools / smartctl 7.5: GPL-2.0-or-later，完整许可证见 smartmontools-GPL-2.txt。
+未修改上游二进制；对应完整上游源码、构建文件：
+https://github.com/smartmontools/smartmontools/tree/RELEASE_7_5
+https://github.com/smartmontools/smartmontools/releases/tag/RELEASE_7_5
+单文件中 smartctl 会被解压后作为独立程序调用，不依赖系统 PATH。
+对应的完整上游源码已随包提供：smartmontools-7.5.tar.gz。
+每次启动会将许可及源码释放至 %LOCALAPPDATA%\UsbSafeEject\licenses，供查阅和再分发。
+
+Python 3.14.10: Python-LICENSE.txt，含 PSF 和随附第三方许可证。
+https://www.python.org/downloads/release/python-31410/
+Tcl/Tk: Tcl-Tk-license.terms，BSD 类许可证。
+Tcl 9.0.4 / Tk 9.0.4 完整上游许可：Tcl-license.terms、Tk-license.terms。
+https://github.com/tcltk/tcl/tree/core-9-0-4
+https://github.com/tcltk/tk/tree/core-9-0-4
+PyInstaller 6.22.3: PyInstaller-COPYING.txt，GPL 及 bootloader 分发例外。
+https://github.com/pyinstaller/pyinstaller/tree/v6.22.3
+
+硬盘图标由本项目使用简单几何图形绘制，无第三方图像素材。
+PyInstaller/Pillow 是构建工具；Pillow 不作为 GUI 运行时依赖。

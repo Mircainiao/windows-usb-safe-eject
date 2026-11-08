@@ -1,0 +1,2 @@
+# No third-party Python runtime packages are required by the source code.
+# Windows PowerShell and smartctl >= 7.5 are external runtime requirements.
