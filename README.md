@@ -6,11 +6,13 @@ Windows 11 x64 中文小工具，用于识别外接 USB 磁盘、刷新并解除
 
 ## 下载
 
-从 [GitHub v1.0.0 Release](https://github.com/Mircainiao/windows-usb-safe-eject/releases/tag/v1.0.0) 下载 `USB硬盘安全退出.exe`。该文件面向 Windows 11 x64，是 PyInstaller 单文件 GUI 程序，不需要为日常运行安装 Python。Release 同时提供 SHA-256 校验值及第三方许可证材料。
+从 [GitHub v1.0.0 Release](https://github.com/Mircainiao/windows-usb-safe-eject/releases/tag/v1.0.0) 下载 `USB-Safe-Eject.exe`。GitHub 会规范化非 ASCII 附件名，直接 EXE 的页面标签为「USB硬盘安全退出.exe」。如果需要解压后保留中文文件名，请下载 `USB-Safe-Eject-v1.0.0.zip`；其中的程序文件名为 `USB硬盘安全退出.exe`。两种下载都面向 Windows 11 x64，均为单文件 GUI 程序，不需要为日常运行安装 Python。Release 同时提供 SHA-256 校验值及第三方许可证材料。
 
 下载后可以在 PowerShell 中核对：
 
 ```powershell
+Get-FileHash .\USB-Safe-Eject.exe -Algorithm SHA256
+# 从压缩包解压后，也可以核对中文文件名
 Get-FileHash .\USB硬盘安全退出.exe -Algorithm SHA256
 ```
 

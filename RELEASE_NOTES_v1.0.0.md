@@ -1,7 +1,7 @@
 # USB 硬盘安全退出 v1.0.0
 
 - 适用平台：Windows 11 x64。
-- 附件：`USB硬盘安全退出.exe`，PyInstaller 单文件 GUI 程序；`third-party-materials-v1.0.0.zip`，包含第三方许可证、声明和 smartmontools 对应源码归档。
+- 附件：`USB-Safe-Eject.exe`（GitHub 页面标签为「USB硬盘安全退出.exe」）；`USB-Safe-Eject-v1.0.0.zip`，解压后包含中文文件名 `USB硬盘安全退出.exe`；`third-party-materials-v1.0.0.zip`，包含第三方许可证、声明和 smartmontools 对应源码归档。GitHub 会规范化非 ASCII 附件名，因此提供 ZIP 以保留程序文件的中文名称。
 - SHA-256：`edd09e12d9899aa85662330f14679ecac7335b01ffbed1e96e9b5471973e8f8f`。
 - 第三方许可：smartmontools 7.5 的 GPL 许可证和对应源码随 EXE 内置，并另附在仓库 `licenses/`。
 - 日常运行使用普通权限；未配置辅助任务的新电脑需要从可信源码进行一次显式 UAC 初始化。发布 EXE 不会自动创建或修改授权任务。

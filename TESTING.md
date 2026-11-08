@@ -32,4 +32,5 @@
 
 - `USB硬盘安全退出.exe`：15,410,017 bytes
 - SHA-256：`edd09e12d9899aa85662330f14679ecac7335b01ffbed1e96e9b5471973e8f8f`
+- GitHub 为兼容附件名会将直接下载的 EXE 命名为 `USB-Safe-Eject.exe` 并显示中文标签；`USB-Safe-Eject-v1.0.0.zip` 内保留 `USB硬盘安全退出.exe` 原名。
 - 文件夹版 smoke SHA-256：`9e69e6ee1cb9fe34aa06c9cdd0c982382422ee2424c13c0f46750148b5b89cd1`

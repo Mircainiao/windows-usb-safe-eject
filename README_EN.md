@@ -6,7 +6,7 @@ A small Chinese-language GUI for Windows 11 x64 that identifies external USB dis
 
 ## Download and use
 
-Download `USB硬盘安全退出.exe` from the [v1.0.0 release](https://github.com/Mircainiao/windows-usb-safe-eject/releases/tag/v1.0.0). It is a Windows x64, windowed, single-file executable and does not require Python for ordinary use. Verify its SHA-256 against the release notes and `SHA256SUMS.txt` before running. The executable is not Authenticode-signed.
+Download `USB-Safe-Eject.exe` from the [v1.0.0 release](https://github.com/Mircainiao/windows-usb-safe-eject/releases/tag/v1.0.0). GitHub normalizes non-ASCII asset names; this direct executable has the Chinese display label “USB硬盘安全退出.exe”. If you need the Chinese filename after extraction, download `USB-Safe-Eject-v1.0.0.zip`, which contains `USB硬盘安全退出.exe`. Both are Windows x64, windowed, single-file applications and do not require Python for ordinary use. Verify the SHA-256 against `SHA256SUMS.txt` before running. The executable is not Authenticode-signed.
 
 Run as a normal user, select the disk, check its model, capacity, and all drive letters, then use **安全退出并停转**. The first click performs read-only identity checks and may wake a sleeping drive. A separate confirmation dialog is required before any disk-control operation. If Windows does not report successful device removal, do not power off the enclosure.
 
